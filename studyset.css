@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quizoodle</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/base.css">
+
+    <!-- Scripts -->
+    <script type="module" src="./load.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 flex flex-col h-full">
+    <header class="bg-white border-b border-gray-200 py-5 px-6">
+      <p class="text-2xl font-bold text-indigo-600">Quizoodle</p>
+    </header>
+
+    <main class="grow max-w-6xl mx-auto p-4 pt-8 w-full flex flex-col gap-8">
+      <section class="flex flex-col gap-2">
+        <p class="text-3xl font-bold text-gray-900">Hello world.</p>
+      </section>
+    </main>
+
+    <footer class="border-t border-gray-200 p-6 text-center text-sm text-gray-500">
+      &copy; 2026 Quizoodle
+    </footer>
+  </body>
+</html>
